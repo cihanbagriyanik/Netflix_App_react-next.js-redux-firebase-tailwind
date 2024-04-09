@@ -1,6 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Netflix App
+
+## Expected Outcome
+
+
+
+## Description
+
+Project aims to clone a Netflix App.
+
+## Project Skeleton
+```
+├── app
+│    ├── (private)
+│    │     ├── movies
+│    │     │      ├── [movieId]
+│    │     │      │       └── page.jsx
+│    │     │      ├── components
+│    │     │      │       ├── HeroSection.jsx
+│    │     │      │       ├── MovieCard.jsx
+│    │     │      │       ├── MovieList.jsx
+│    │     │      │       ├── MovieSection.jsx
+│    │     │      │       └── VideoSection.jsx
+│    │     │      └── page.jsx
+│    │     ├── profile
+│    │     │      ├── components
+│    │     │      │       ├── CardContainer.jsx
+│    │     │      │       └── ProfileCard.jsx
+│    │     │      └── page.jsx
+│    │     └── layout.jsx
+│    │
+│    ├── (public)
+│    │     └── login
+│    │          └── page.jsx
+│    │     └── register
+│    │          └── page.jsx
+│    │     
+│    ├── error.jsx
+│    ├── global.css
+│    ├── layout.js
+│    ├── loading.jsx
+│    ├── not-found.jsx
+│    └── page.js
+├── auth
+│    └── firebase.js
+├── components
+│    └── Navbar.jsx
+├── helpers
+│    ├── movieFunctions.js
+│    └── ToastNotify.js
+├── hooks
+│    └── useAuthCalls.jsx
+├── public
+│    ├── icons
+│    └── images
+├── redux
+│    ├── features
+│    │     └── authSlice.jsx
+│    ├── providers.jsx
+│    └── store.jsx
+├── .env
+├── .gitignore
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── postcss.config.js
+├── readme.md
+├── tailwind.config.js
+└── yarn.lock
+```
+
+## Objective
+
+Clone a Netflix App using Netxt.js.
+
+### At the end of the project, following topics are to be covered;
+
+- Next.js
+
+- React
+
+- Redux
+
+- Tailwind
+
+- Firabase
+
+### At the end of the project, students will be able to;
+
+- improve coding skills within Next.js & React & Redux & Tailwind.
+
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
 ## Getting Started
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
