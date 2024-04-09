@@ -3,7 +3,7 @@
 
 ## Expected Outcome
 
-
+![ScreenRecording2024-04-09at10 31 47-ezgif com-speed](https://github.com/cihanbagriyanik/Netflix_App_react-next.js-redux-firebase-tailwind/assets/132518854/c95622db-0147-4233-8e36-45e5671ad115)
 
 ## Description
 
